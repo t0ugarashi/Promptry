@@ -74,7 +74,7 @@ https://www.pexels.com/ja-jp/video/4153410/
 -レイアウトをより自由にPC向けに設計
 -日付や簡易天気予報の追加、既存機能の改良
 
-##　ライセンス
+## ライセンス
 Promptry v1.0.0
 Copyright (c) 2026 sub.tougarashi
 

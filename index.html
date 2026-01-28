@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Promptry for PC</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="page">
+    <div id="background-layer">
+      <video autoplay muted loop playsinline>
+        <source src="./image/wallpaper/back.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div id="background-layer"></div>
+  <main>
+<section id="search" class="search-area">
+  <!-- <h2>Search</h2> -->
+  <div class="search-panel">
+    <form id="search-form">
+
+        <div class="search-toggle">
+        <button type="button" id="mode-toggle" aria-pressed="false">
+          Search
+        </button>
+        </div>
+
+        <div class="search-engine">
+          <label for="engine">Engine</label>
+          <select id="engine" name="engine">
+            <option value="google">Google</option>
+            <option value="bing">Bing</option>
+            <option value="yahoo">Yahoo!</option>
+            <option value="yandex">Yandex</option>
+            <option value="duckduckgo">DuckDuckGo</option>
+          </select>
+        </div>
+
+        <div class="search-input">
+          <label for="keyword">Search or AI Prompt</label>
+          <input
+            type="text"
+            id="keyword"
+            name="q"
+            placeholder="Search or ask AI"
+          />
+        </div>
+
+        <div class="search-button">
+        <button type="submit" class="search-submit">GO</button>
+        </div>
+
+    </form>
+  </div>
+</section>
+    <section id="bookmarks" class="Bookmark-area">
+        <!-- <h2>Bookmarks</h2> -->
+        <div id="bookmark-panel" class="bookmark-panel"></div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer_logo"><img src="image/system_img/Logo.PNG" width="60px" height="60px"></div>
+    <div class="footer_name"><h2>Promptry</h2></div>
+  </footer>
+  </div>
+  <script src="js/search.js" defer></script>
+  <script src="js/bookmarks.js" defer></script>
+</body>
+</html>

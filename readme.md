@@ -50,7 +50,7 @@ PromptryのUIにはグラスモーフィズムを取り入れたり、背景画�
 |
 |-readme.md
 
-##　背景について
+## 背景について
 -back.pngは次のサイトから取りました
 https://unsplash.com/ja/%E5%86%99%E7%9C%9F/%E9%9D%92%E7%A9%BA%E3%81%AE%E4%B8%8B%E3%81%AE%E8%8C%B6%E8%89%B2%E3%81%AE%E5%B2%A9%E5%B1%A4-CSpjU6hYo_0
 -bach.mp4は次のサイトから取りました

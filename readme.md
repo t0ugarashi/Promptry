@@ -84,5 +84,5 @@ https://www.pexels.com/ja-jp/video/4153410/
 
 ## ライセンス
 Promptry v1.0.1
-Copyright (c) 2026 sub.tougarashi
+Copyright (c) 2026 t0ugarashi
 
